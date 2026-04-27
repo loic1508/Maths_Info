@@ -1,6 +1,6 @@
-nums = [1, 2, 3]
-nums.append(4)
-print(nums)
+n = int(input("Entre un entier : "))
 
-info = {"nom": "Bob", "age": 30}
-print(info["nom"])
+if n % 2 == 0:
+    print("Pair")
+else:
+    print("Impair")
