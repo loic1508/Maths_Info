@@ -1,7 +1,6 @@
-for i in range(5):
-    print(i)
+nums = [1, 2, 3]
+nums.append(4)
+print(nums)
 
-x = 0
-while x < 10:
-    x += 1
-print(x)
+info = {"nom": "Bob", "age": 30}
+print(info["nom"])
